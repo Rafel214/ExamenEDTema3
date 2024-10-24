@@ -8,11 +8,23 @@ import java.util.Scanner;
 	*
 	*/
 public class funcionsuma {
+/** 
+*
+*<p>Programa suma, para calcular la suma de dos valores introducidos por teclado</p>
+*@version v1.0
+*@author Miquel
+*@see Para mas información ver <a href="google.com/?hl=es&safe=active&ssui=on"
+*
+*
+*
+*/
+public class FuncionSuma {
 	/**
 	*
 	*Variable para guardar el primer sumando
 	*
 	*/			
+	*/
 	private static int primerSumando;
 	/**
 	*
@@ -20,6 +32,8 @@ public class funcionsuma {
 	*
 	*/	
 	private static int segundoSumando; 
+	*/
+	private static int segundoSumando;
 	/**
 	*
 	*Funcion principal del programa
@@ -47,5 +61,21 @@ public class funcionsuma {
 		private static int suma (int sumando1, int sumando2) {
 			return sumando1+sumando2;
 		}
+	/**
+	*Funcion principal del programa
+	* /
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		
+		System.out.println("Introduce el primer sumando:");
+		primerSumando = in.nextInt();
+		in.nextLine();
+		System.out.println("Introduce el segundo sumando:");
+		segundoSumando = in.nextInt();
+		in.nextLine();
+		System.out.println("La suma es: " + suma(primerSumando, segundoSumando));
+		
+		in.close();
 
 }
