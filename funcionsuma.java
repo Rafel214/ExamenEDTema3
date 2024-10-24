@@ -24,15 +24,12 @@ public class FuncionSuma {
 	*Variable para guardar el primer sumando
 	*
 	*/			
-	*/
 	private static int primerSumando;
 	/**
 	*
 	*Variable para guardar el segundo sumando
 	*
 	*/	
-	private static int segundoSumando; 
-	*/
 	private static int segundoSumando;
 	/**
 	*
@@ -67,14 +64,6 @@ public class FuncionSuma {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		
-		System.out.println("Introduce el primer sumando:");
-		primerSumando = in.nextInt();
-		in.nextLine();
-		System.out.println("Introduce el segundo sumando:");
-		segundoSumando = in.nextInt();
-		in.nextLine();
-		System.out.println("La suma es: " + suma(primerSumando, segundoSumando));
 		
 		in.close();
 
