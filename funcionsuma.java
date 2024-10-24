@@ -58,10 +58,10 @@ public class FuncionSuma {
 		private static int suma (int sumando1, int sumando2) {
 			return sumando1+sumando2;
 		}
-	/**
-	*Funcion principal del programa
-	* /
-	public static void main(String[] args) {
+		/**
+		*Funcion principal del programa
+		* /
+		public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
 		
